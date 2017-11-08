@@ -8,11 +8,13 @@ Install it with pip (or easy_install)::
 Usage
 =====
 
+You can use IDField for primary keys or to generate SMS/Email codes::
+
     from idfield import IDField
     
     class MyModel(models.Model):
-        id = IDField(max_length=10, readable=False, primary_key=True, editable=False)
-        code = IDField(max_length=4, readable=True)
+        id = IDField(max_length=10, readable=False, primary_key=True, editable=False) # lzfgxcm3u4, etc
+        code = IDField(max_length=4, readable=True) # GKUP, etc
 
 Notes
 =====
