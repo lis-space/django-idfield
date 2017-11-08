@@ -1,7 +1,3 @@
-# django-idfield
-
-Char ID filed for Django
-
 Installation
 ============
 
